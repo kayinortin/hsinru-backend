@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "frontimages",
+  "info": {
+    "singularName": "frontimage",
+    "pluralName": "frontimages",
+    "displayName": "Frontimages",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "img": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "required": true
+    }
+  }
+}
